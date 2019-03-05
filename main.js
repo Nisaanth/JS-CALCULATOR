@@ -2,8 +2,8 @@ var num1 = prompt("please enter the first number");
 var num2 = prompt("please enter the second number");
 var operator = prompt("enter the operator");
 
-num1 = parseInt(num1);
-num2 = parseInt(num2);
+num1 = parseFloat(num1);
+num2 = parseFloat(num2);
 
 var result;
 
